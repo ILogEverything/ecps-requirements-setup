@@ -7,7 +7,7 @@ Additionally, it downloads ESXi-Customizer-PS.ps1 into the same directory where 
 
 Make sure:
 
-1. Run requirements-setup.ps1 as Admin
+1. Run ecps-requirements-setup.ps1 as Admin
 2. Your pc can run powershell scripts
 
 ### If you don't know if your pc can run powershell scripts
