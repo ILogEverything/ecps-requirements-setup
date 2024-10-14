@@ -20,4 +20,4 @@ If the result is "Unrestricted" it's all ok, just launch requirements-setup.ps1,
 
 > Set-ExecutionPolicy Unrestricted
 
-then launch requirements-setup.ps1
+then launch requirements-setup.ps1 and wait.
