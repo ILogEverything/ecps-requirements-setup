@@ -16,8 +16,8 @@ Open PowerShell as Admin and type
 
 > Get-ExecutionPolicy
 
-If the result is "Unrestricted" it's all ok, just launch requirements-setup.ps1, if the state is not unrestricted type
+If the result is "Restricted" type
 
-> Set-ExecutionPolicy Unrestricted
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 
 then launch requirements-setup.ps1 and wait.
